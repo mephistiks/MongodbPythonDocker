@@ -2,7 +2,7 @@ version: '3'
 
 services:
   mongodb:
-    build: ./mongodata
+    build: .
     hostname: mongodb
     networks:
       - net

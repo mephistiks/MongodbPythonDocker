@@ -12,7 +12,7 @@ db_url6 = "mongodb://mongo:mongo@mongodb:27005/?directConnection=true"
 db_url7 = "mongodb://mongo:mongo@net:27005/?directConnection=true"
 
 def f1():
-    db_url = db_url7
+    db_url = db_url5
 
     print("Пробуем подключение")
     client = pymongo.MongoClient(db_url)
